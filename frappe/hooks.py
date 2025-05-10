@@ -17,7 +17,7 @@ after_install = "frappe.utils.install.after_install"
 
 page_js = {"setup-wizard": "public/js/frappe/setup_wizard.js"}
 
-
+fixtures = ["Custom Field", "Property Setter", "Role"]
 # Add CORS headers
 response_hooks = ["your_app.utils.add_cors_headers"]
 
